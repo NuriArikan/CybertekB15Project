@@ -3,7 +3,7 @@ package day03;
 public class PrintVSPrintln {
 
     public static void main(String[] args) {
-        // 2 print line statemnet
+        // 2 print line statement
         System.out.println("Hello World Line 1 ");
         System.out.println("Hello World Line 2");
         // 2 print statement

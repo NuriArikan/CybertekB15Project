@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SeasonActionWithScanner {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("hey what is the season!!!? ");

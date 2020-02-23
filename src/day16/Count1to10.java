@@ -7,7 +7,7 @@ public class Count1to10 {
 
         while ( counter <  11 ){
 
-            System.out.println("Counter values : " + counter);
+            System.out.println(counter + " Counter values : " + counter);
             // something has to be done to change the condition along the way
             // or it just keep running forever
             ++counter ;

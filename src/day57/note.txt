@@ -1,0 +1,37 @@
+Murodil, i am java instructor in B15 VA Campus.
+
+OOP concepts:
+	- Encapsulation
+	- Inheritance
+	- Abstraction
+	- Polymorphism
+----------------------
+
+Exception Handling In Java.
+---------------------------
+
+Exception -> Exception event, situation
+---------------
+
+In Java, Exceptions are ERRORs that happen during runtime.
+
+Lets say you have code with 200 lines, that is running and at line 105 some exception happens.
+
+2 options:
+	- you let your code to fail and stop
+	- you can handle the exception programmatically
+----------------------------
+
+
+java program writing and execution process:
+
+We write our java code and save it with .java extension.
+
+HelloWorld.java --> Compiler --> HelloWorld.class --> Run
+
+As we see in the flow, it needs to be compiled first then executed. So Compiler will check everything: syntax, data types matching(int n = "java") etc before completing compilation process. If compiler sees something is wrong, we will see COMPILE ERROR.
+
+COMPILE ERROR -> happens during compile process, and it is due to programmer's mistake. We need to fix them for our program to be able to successfully run.
+
+
+When your code is running, it will run top to bottom line by line, when java sees a line that has error, it will THROW EXCEPTION. RUNTIME EXCEPTION.

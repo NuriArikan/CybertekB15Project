@@ -1,0 +1,24 @@
+package day52;
+
+public abstract class Book implements KnowledgeBank  {
+
+    String name;
+    String author;
+
+
+    public Book(String name, String author) {
+
+    }
+
+    public Book() {
+        this.name = name;
+        this.author = author;
+    }
+
+
+    public abstract  void displayBookInfo();
+
+
+
+
+}

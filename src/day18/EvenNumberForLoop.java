@@ -27,6 +27,7 @@ public class EvenNumberForLoop {
 
                 if ( e %5 == 0 && e %3 == 0){
                     System.out.println(e + " is Fizz Buzz Number ");
+                    break;
                 }
 
             }
